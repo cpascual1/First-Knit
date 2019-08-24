@@ -1,0 +1,99 @@
+---
+title: "First Knit"
+author: "Cheska Pascual"
+date: "August, 2019"
+output:
+  html_document:
+    number_sections: yes
+    toc: yes
+  word_document:
+    toc: yes
+---
+
+### `r as.character(Sys.Date())`
+
+```{r include=FALSE,echo=FALSE}
+require(tidyverse)
+if(!require("imager")) {install.packages("imager");require("imager")}
+
+```
+
+```{r echo=FALSE,out.width='100%'}
+xx<-getwd()
+Drive_ltr <- strtrim(xx,2)
+yy <- str_glue("{Drive_ltr}\\AAA_Owner_Info\\My_photo.jpg")
+my_pict <- load.image(yy)
+plot(my_pict,axes=FALSE,main="This Is Me")
+```
+
+# A Little Survey
+
+Here are just a few questions so I can get to know you and so you can get practice submitting an assignment in Canvas.  For each question, insert your answer underneath. Make sure each answer is at the minimum a complete sentence with correctly spelled words and correct puncuation. Half the points in this assignment depend on your picture and name being correct!!  Be sure to put your photo in the AAA_Owner_Info folder and call it My_photo.jpg after first renaming the current one to Koala.jpg . 
+
+##Where are you now?  
+What row are you in, front,middle or back?  Do you usually choose a similiar row in other classes? What is the computer number where you are sitting?  How on a scale of 1 to 10 (1=low, 10=high) How you feel about periodic seat re-assignment, say how and why. Teams, have you ever worked on one in a class setting?  
+
+###my answer     
+I sit on the second row at the front. I usually sit in the same row for my other classes. My computer number is 16. On a scale of 1 to 10, I give periodic seat re-assignment a 3. I don't like changing seats because I like to talk to the same people. I have worked in many teams in a class setting for a project or assignment. 
+   
+     
+
+
+##Others and You?   
+What name do you prefer to be called by your classmates and instructor, if your buddys call you something but you want me to call you something else - what would that be? 
+
+###my answer     
+I have two names, Cheska Terriz, but I perfer to be called Cheska by my instructor and classmates because I've always gone by that name.    
+   
+ 
+
+
+
+
+##Aspirations?   
+What do you want to achieve in life?  What college subject do you think would be of the greatest interest to you? What degree or certificate are you trying to achieve?
+
+###my answer     
+What I want to achive in life is to be able to help my family as well as help others. My family as sacrificed a lot for me, so I want to pay them back. The college subject that I think I will find great interest in is Psychology. As of now, the degree I'm trying to achieve on getting is Psychology. I still don't know if that is what I really want in the end, but for now that is my major.    
+   
+ 
+
+
+
+
+##Past adventures?  
+Have you ever gone to foreign countries, if so which ones, if not Where might you go in the future?  Have you ever been in the military, if so which branch, if not which branch would you choose if you got drafted, and why?
+
+###my answer     
+I was born in the Philippines, and while I lived there I was able to explore quite a big part of the country because of my father's job at the time. I have never been in the military, but I were to be drafted, I would like to go into the Air Force. As a kid, I dreamt about being a pilot but gave up on the dream as I got older. Even if I were to be ever drafted into the Air Force, I don't think I would be able to handle the G force.    
+   
+  
+
+
+
+
+##Why are you taking Math 115?  
+What grade do you need to attain in stats to not upset your future plans, What is your plan?
+ 
+
+###my answer     
+The grade I need to obtain in this class to not upset my future plans is a B, but if that is not possible I would need a C minimum. If I get a C, that means I woulod have to get all As in my other classes in order to balance my GPA. My plan is to graduate with a GPA that is 3.0 or above, so I would need to work hard in all my classes no matter the degree I choose in the end.   
+   
+ 
+
+
+
+
+
+##Homework Help and Getting around?  
+On a scale of 1 to 10, where 1 is a total dummy (doesn't know a mouse from a keyboard) and 10 is a complete geek (knows computer stuff in and out) How do you rate yourself?  Do you have a computer you can use at home? If so, what kind is it (windows, Apple, Linux)? Do you have internet access at home?  
+How do you get to class? Are there issues that limit when you can be at the college?Where and when did you attend high school?  Do you currently have a job?
+
+###my answer   
+From 1 to 10, I would give myself a 5 when it comes to knowledge of a computer. I have a PC and a couple laptops I use at home. My PC is a Windows and my lapstops are Apple and Windows. I do have internet access at home. I get to class by walking since my house is across the street. The only issue I'll have that limits my attendance in college is if my mom needs to be taken to the hospital for her appointments. I attended Rowland High School at Rowland Heights, California from 2014 to 2018. I do not have a job at the current moment.     
+   
+  
+
+
+
+
